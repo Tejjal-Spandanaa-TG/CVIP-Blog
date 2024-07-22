@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .post {
+            margin-bottom: 40px;
+        }
+
+        .post h2 {
+            margin: 0 0 10px;
+            color: #333;
+        }
+
+        .post p {
+            margin: 0 0 10px;
+            color: #666;
+        }
+
+        .post img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Power of Artificial Intelligence: A Quick Overview</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="post">
+            <h2>First Blog Post</h2>
+            <img src="https://media.istockphoto.com/id/1452604857/photo/businessman-touching-the-brain-working-of-artificial-intelligence-automation-predictive.jpg?s=612x612&w=0&k=20&c=GkAOxzduJbUKpS2-LX_l6jSKtyhdKlnPMo2ito4xpR4=" alt="Placeholder Image">
+            <p>Artificial Intelligence (AI) is transforming our world by mimicking human intelligence 
+                to perform tasks such as learning, reasoning, and problem-solving. From healthcare to 
+                finance, AI is revolutionizing industries by enhancing efficiency and accuracy. In healthcare,
+                 AI aids in early disease detection and personalized treatments. Self-driving cars and smart 
+                 traffic systems are making transportation safer and more efficient. AI-driven chatbots and 
+                 virtual assistants improve customer service experiences. Despite its benefits, AI presents 
+                 challenges like data privacy and ethical considerations. As AI continues to evolve, its potential
+                  to shape a better future is limitless, provided we address its associated risks responsibly.</p>
+        </div>
+        <div class="post">
+            <h2>Unlocking the Power of IoT: Revolutionizing Our World</h2>
+            <img src="https://builtin.com/sites/www.builtin.com/files/2022-08/connected-devices-internet-of-things-iot-devices.png" alt="Placeholder Image">
+            <p>The Internet of Things (IoT) is transforming the way we live, work, and interact with the
+                 world around us. By connecting everyday objects to the internet, IoT enables these devices
+                  to send and receive data, creating a network of smart devices that enhance our lives. From 
+                  smart homes with automated lighting and climate control to wearable fitness trackers that 
+                  \monitor our health, IoT technology is making our lives more convenient and efficient. In
+                   industries, IoT is driving innovation through smart manufacturing, predictive maintenance,
+                    and enhanced supply chain management. As IoT continues to evolve, it promises to bring even 
+                    greater advancements in areas like healthcare, agriculture, and urban planning, ultimately
+                     leading to a more connected and intelligent world. With its vast potential, IoT is not just 
+                     a technological trend but a pivotal force shaping the future.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Personal Blog. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('Welcome to My Personal Blog!');
+        });
+    </script>
+</body>
+</html>
